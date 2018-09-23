@@ -2,6 +2,7 @@
 
 ## Dependency
 - Python 3
+- [pandas](https://pandas.pydata.org/)
 
 ## Usage
 1. Download the repository using the 'Clone or download' button. 
