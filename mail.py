@@ -28,7 +28,7 @@ def create_email(sender_email, student, subject, template_html, **kwargs):
 	msg = email.message.Message()
 	msg['Subject'] =  subject
 	msg['From'] = sender_email
-	msg['To'] = student.student_id + "@link.cuhk.edu.hk"
+	msg['To'] = student.email + ", " + student.sid + "@link.cuhk.edu.hk"
 	msg['CC'] = sender_email
 	msg.add_header('Content-Type','text/html')
 	msg.set_payload(replace_placeholder(template_html, student, **kwargs))

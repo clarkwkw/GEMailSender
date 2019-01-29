@@ -7,5 +7,8 @@ def load_students(path):
 
 class Student:
 	def __init__(self, df_row):
-		for key, value in df_row.items():
-			self.__dict__[key] = value
+		self.email = df_row["email"]
+		self.username = df_row["username"]
+		self.password = df_row["password"]
+		self.name = df_row["name"]
+		self.sid = df_row["sid"]

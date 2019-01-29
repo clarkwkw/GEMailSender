@@ -1,2 +1,2 @@
-name,student_id,username,password
-student 01,1155000001,ugfngame01,ugfngame01
+name,sid,email,username,password
+student 01,1155012345,abc@abc.com,ugfngame01,ugfngame01
