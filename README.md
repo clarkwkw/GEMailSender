@@ -10,3 +10,4 @@
 2. Modify the email template `template.html`. You can insert placeholders such as `%student name%`, `%username%`, `%password%`, `%helper name%` and `%class code%`.
 3. Update student information in `students.csv`.
 4. Execute the program by `python3 main.py`. Follow the instruction to provide other information, including your @link email address, email subject, One pass password, sender name and class code.
+5. A sample email will be generated and shown in browser, check and confirm if it is good to send. 
